@@ -17,6 +17,7 @@ module.exports = {
         'medium-dark-blue': 'hsl(213, 19%, 22%)',
         'dark-blue': 'hsl(213, 19%, 18%)',
         'very-dark-blue': 'hsl(216, 12%, 8%)',
+        link: 'hsl(228, 45%, 44%)',
       },
       fontSize: {
         paragraph: '0.9375rem',
