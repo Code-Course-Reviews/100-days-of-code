@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Interactive Ratings Component](./../public/images/screenshot.png)
+![Interactive Ratings Component](https://i.imgur.com/E25BHfO.png)
 
 ### Links
 
