@@ -5,15 +5,20 @@ import ThankYouScreen from './screens/ThankYou'
 
 const App = () => {
   const [rating, setRating] = useState(null)
+  const [hasSubmitted, setHasSubmitted] = useState(false)
 
   return (
     <>
-      {rating ? (
+      {hasSubmitted ? (
         <ThankYouScreen rating={rating} />
       ) : (
-        <FeedbackScreen rating={rating} setRating={setRating} />
+        <FeedbackScreen
+          rating={rating}
+          setRating={setRating}
+          setHasSubmitted={setHasSubmitted}
+        />
       )}
-      <div class="text-base text-center text-white">
+      <div className="text-base text-center text-white">
         Challenge by{' '}
         <a
           className="text-link"

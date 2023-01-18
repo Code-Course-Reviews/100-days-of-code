@@ -20,6 +20,7 @@ const Ratings = ({ ratingProp, setRating }) => (
   <div className="flex justify-between my-7">
     {RATINGS.map(({ rating }) => (
       <div
+        key={rating}
         onClick={() => setRating(rating)}
         className={`rounded-full bg-medium-dark-blue w-9 h-9 flex items-center justify-center hover:bg-orange hover:text-white cursor-pointer transition ease-in-out ${
           ratingProp === rating
