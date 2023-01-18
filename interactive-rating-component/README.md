@@ -16,7 +16,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
     - [Continued development](#continued-development)
     - [Useful resources](#useful-resources)
   - [Author](#author)
-  - [Acknowledgments](#acknowledgments)
+  - [Acknowledgements](#acknowledgements)
 
 ## Overview
 
@@ -68,6 +68,8 @@ I think I didn't get the colours of the project 100% right. That's an area I can
 - Youtube - [@codecoursereviews](https://www.youtube.com/channel/UCMZA3I7RsWzerxqeTQf_VHQ)
 - Reddit - [@codecoursereviews](https://www.reddit.com/user/codecoursereviews)
 
-## Acknowledgments
+## Acknowledgements
+
+Thank you to [@rafdidact](https://www.frontendmentor.io/profile/rafdidact) for pointing out a bug with this project in the Frontend Mentor feedback section.
 
 Thank you to my Youtube viewers for the encouragement to continue with the #100DaysOfCode challenge.
