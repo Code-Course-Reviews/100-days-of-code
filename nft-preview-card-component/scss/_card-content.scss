@@ -1,0 +1,106 @@
+.nft {
+  &-image-container:hover {
+    cursor: pointer;
+    position: relative;
+
+    .nft-hover-overlay {
+      display: flex;
+    }
+  }
+
+  &-image {
+    width: 100%;
+    border-radius: 0.8rem;
+  }
+
+  &-hover-overlay {
+    border-radius: 0.8rem;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 255, 257, 0.5);
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: none;
+  }
+
+  &-heading {
+    color: white;
+    font-weight: $font-weight-bold;
+    font-size: 1.4rem;
+    margin: 1.4rem 0 1.2rem;
+
+    &:hover {
+      color: $cyan;
+      cursor: pointer;
+    }
+  }
+
+  &-description {
+    color: $soft-blue;
+    line-height: 1.5rem;
+    font-weight: $font-weight-light;
+  }
+
+  &-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.1rem 0;
+
+    .price {
+      @extend %info-styles;
+      width: 8rem;
+      color: $cyan;
+
+      .eth {
+        @extend %info-icon-styles;
+      }
+    }
+
+    .time-left {
+      display: flex;
+      align-items: center;
+      width: 6rem;
+      color: $soft-blue;
+
+      .clock {
+        @extend %info-icon-styles;
+      }
+    }
+  }
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid $line;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.author {
+  &-info {
+    color: $soft-blue;
+    display: flex;
+    align-items: center;
+  }
+
+  &-name {
+    color: white;
+    &:hover {
+      color: $cyan;
+      cursor: pointer;
+    }
+  }
+
+  &-avatar {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 2rem;
+    display: inline-block;
+    margin-right: 1rem;
+  }
+}

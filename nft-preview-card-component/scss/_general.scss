@@ -1,0 +1,14 @@
+body {
+  background-color: $main-bg;
+}
+
+main {
+  margin: 4rem auto 2rem;
+  border-radius: 0.8rem;
+  width: 20rem;
+  background-color: $card-bg;
+  padding: 1.2rem;
+  box-sizing: border-box;
+  font-family: $font-family;
+  position: relative;
+}

@@ -1,0 +1,26 @@
+// colours
+
+$soft-blue: hsl(215, 51%, 70%);
+$cyan: hsl(178, 100%, 50%);
+
+$main-bg: hsl(217, 54%, 11%);
+$card-bg: hsl(216, 50%, 16%);
+$line: hsl(215, 32%, 27%);
+
+// typography
+
+$font-size: 18px;
+$font-family: Outfit, sans-serf;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-bold: 600;
+
+%info-styles {
+  display: flex;
+  align-items: center;
+}
+
+%info-icon-styles {
+  display: inline-block;
+  margin-right: 0.4rem;
+}

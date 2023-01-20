@@ -1,0 +1,267 @@
+.nft-info .price {
+  display: flex;
+  align-items: center;
+}
+
+.nft-info .time-left .clock, .nft-info .price .eth {
+  display: inline-block;
+  margin-right: 0.4rem;
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: hsl(217deg, 54%, 11%);
+}
+
+main {
+  margin: 4rem auto 2rem;
+  border-radius: 0.8rem;
+  width: 20rem;
+  background-color: hsl(216deg, 50%, 16%);
+  padding: 1.2rem;
+  box-sizing: border-box;
+  font-family: Outfit, sans-serf;
+  position: relative;
+}
+
+.nft-image-container:hover {
+  cursor: pointer;
+  position: relative;
+}
+.nft-image-container:hover .nft-hover-overlay {
+  display: flex;
+}
+.nft-image {
+  width: 100%;
+  border-radius: 0.8rem;
+}
+.nft-hover-overlay {
+  border-radius: 0.8rem;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 255, 255, 0.5);
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  display: none;
+}
+.nft-heading {
+  color: white;
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin: 1.4rem 0 1.2rem;
+}
+.nft-heading:hover {
+  color: hsl(178deg, 100%, 50%);
+  cursor: pointer;
+}
+.nft-description {
+  color: hsl(215deg, 51%, 70%);
+  line-height: 1.5rem;
+  font-weight: 300;
+}
+.nft-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.1rem 0;
+}
+.nft-info .price {
+  width: 8rem;
+  color: hsl(178deg, 100%, 50%);
+}
+.nft-info .time-left {
+  display: flex;
+  align-items: center;
+  width: 6rem;
+  color: hsl(215deg, 51%, 70%);
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid hsl(215deg, 32%, 27%);
+  margin: 1em 0;
+  padding: 0;
+}
+
+.author-info {
+  color: hsl(215deg, 51%, 70%);
+  display: flex;
+  align-items: center;
+}
+.author-name {
+  color: white;
+}
+.author-name:hover {
+  color: hsl(178deg, 100%, 50%);
+  cursor: pointer;
+}
+.author-avatar {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 2rem;
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.attribution {
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+@media screen and (min-width: 48rem) {
+  main {
+    margin: 9.625rem auto 2rem;
+    width: 21.5rem;
+  }
+  .nft-description {
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+  }
+  .nft-info {
+    margin: 1.35rem 0;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
