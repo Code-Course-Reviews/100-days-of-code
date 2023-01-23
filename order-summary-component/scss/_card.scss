@@ -1,0 +1,93 @@
+.card {
+  width: 20.2rem;
+  margin: 4.5rem auto 2rem;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  display: inline-block;
+  font-family: $font-family;
+  background-color: white;
+  font-size: 0.9rem;
+  box-shadow: 0 1rem 1rem 0 $bright-blue-shadow;
+
+  &-content {
+    padding: 1.2rem;
+  }
+
+  &-image {
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+
+  &-heading {
+    font-size: 1.45rem;
+    margin: 0.3rem 0 1.4rem;
+    color: $dark-blue;
+  }
+
+  &-description {
+    width: 15rem;
+    margin: 0 auto 1.4rem;
+    line-height: 1.5rem;
+    color: $desaturated-blue;
+  }
+
+  &-price {
+    background-color: $very-pale-blue;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+
+    a:hover {
+      text-decoration: none;
+    }
+
+    &-info {
+      position: relative;
+      left: -1rem;
+      margin: 0;
+      color: $desaturated-blue;
+      font-size: 0.9rem;
+
+      &-plan {
+        font-weight: 700;
+        display: inline-block;
+        margin-bottom: 0.2rem;
+        color: $dark-blue;
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  &-proceed {
+    width: 100%;
+    border: none;
+    background-color: $bright-blue;
+    color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1.7rem 0 0.65rem;
+    font-weight: 900;
+    font-size: 1rem;
+    box-shadow: 0 1rem 0.5rem 0 $pale-blue;
+
+    &:hover {
+      opacity: 0.5;
+      cursor: pointer;
+    }
+  }
+
+  &-cancel {
+    display: block;
+    font-weight: 900;
+    color: $desaturated-blue;
+    text-decoration: none;
+    margin: 1rem 0 0.8rem;
+
+    &:hover {
+      color: black;
+    }
+  }
+}

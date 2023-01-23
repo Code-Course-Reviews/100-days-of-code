@@ -1,0 +1,16 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: $pale-blue;
+  margin: 0;
+}
+
+main {
+  width: $mobile-width;
+  height: 44.3rem;
+  margin: 0 auto 2rem;
+  text-align: center;
+  background: url('../images/pattern-background-mobile.svg') no-repeat;
+}
