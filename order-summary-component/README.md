@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/Code-Course-Reviews/100-days-of-code/tree/main/interactive-rating-component)
+- Solution URL: [Github](https://github.com/Code-Course-Reviews/100-days-of-code/tree/main/order-summary-component)
 - Live Site URL: [Surge](https://order-summary-component-fm.surge.sh/)
 
 ## My process
