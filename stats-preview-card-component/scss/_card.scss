@@ -1,0 +1,74 @@
+.card {
+  &-image {
+    &-container {
+      position: relative;
+    }
+
+    width: 100%;
+    border-top-left-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+
+    &-overlay {
+      position: absolute;
+      border-top-left-radius: 0.7rem;
+      border-top-right-radius: 0.7rem;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-color: darken(saturate($soft-violet, 90%), 30%);
+      opacity: 0.5;
+    }
+  }
+
+  &-heading {
+    font-family: $font-inter;
+    font-weight: 700;
+    font-size: 1.8rem;
+    width: 90%;
+    margin: 2.8rem auto 1.4rem;
+    line-height: 1.8rem;
+
+    .highlight {
+      color: $soft-violet;
+    }
+  }
+
+  &-description {
+    font-family: $font-lexend-deca;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    color: $slightly-transparent-paragraph;
+  }
+
+  &-stats {
+    margin: 2.2rem auto 0;
+    display: inline-block;
+
+    li {
+      margin-top: 0.3rem;
+      margin-bottom: 2.4rem;
+      font-family: $font-lexend-deca;
+      color: $slightly-transparent-stat-headings;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+
+      .stat {
+        display: block;
+        flex-direction: column;
+        font-size: 1.5rem;
+        font-family: $font-inter;
+        font-weight: 700;
+        margin-bottom: 0.7rem;
+        color: white;
+        text-transform: none;
+
+        &:last-child {
+          margin-top: -0.3rem;
+        }
+      }
+    }
+  }
+}

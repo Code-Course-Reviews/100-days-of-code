@@ -1,0 +1,14 @@
+body {
+  background-color: $very-dark-blue;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 5.5rem auto 2rem;
+  width: 20.3rem;
+  border-radius: 0.7rem;
+  color: white;
+  text-align: center;
+  background-color: $dark-desaturated-blue;
+}
